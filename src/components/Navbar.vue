@@ -1,7 +1,7 @@
 <template>
   <div className="navbar bg-slate-50">
     <div className="navbar-start">
-      <a className="btn btn-ghost normal-case text-xl text-zinc-900">AnimaHubLab</a>
+      <a className="btn btn-ghost normal-case text-xl text-zinc-900" href="/">AnimaHubLab</a>
     </div>
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -11,7 +11,7 @@
         </svg>
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>Sobre</a></li>
+        <li><a href="/sobre">Sobre</a></li>
       </ul>
     </div>
     <div className="navbar-center hidden lg:flex">
