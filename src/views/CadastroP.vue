@@ -88,9 +88,9 @@
 
 // preenche os selects
 import services from '../../axios/services'
-const IEs = await services.getIEs()
-const Campus = await services.getCampus();
-const idP = await services.getProfessors()
+const IEs = services.getIEs()
+const Campus = services.getCampus();
+const idP = services.getProfessors()
 
 export default {
   name: "Cadastro",
