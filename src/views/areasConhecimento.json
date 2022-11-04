@@ -1,0 +1,50 @@
+{
+    "data": {
+      "areas": [
+        {
+          "sigla": "ENG",
+          "nome": "Engenharias"
+        },
+        {
+          "sigla": "TI&C",
+          "nome": "TI & Computação"
+        },
+        {
+          "sigla": "T&H",
+          "nome": "Turismo & Hospitalidade"
+        },
+        {
+          "sigla": "CA&MA",
+          "nome": "Ciências Agrárias & Meio Ambiente"
+        },
+        {
+          "sigla": "CORE",
+          "nome": "Core Curriculum"
+        },
+        {
+          "sigla": "G&N",
+          "nome": "Gestão & Negócios"
+        },
+        {
+          "sigla": "CH",
+          "nome": "Ciências Humanas"
+        },
+        {
+          "sigla": "CJ",
+          "nome": "Ciências Jurídicas"
+        },
+        {
+          "sigla": "CB&S",
+          "nome": "Ciências Biológicas e da Saúde"
+        },
+        {
+          "sigla": "AU&D",
+          "nome": "Arquitetura e Urbanismo & Design"
+        },
+        {
+          "sigla": "C&A",
+          "nome": "Comunicação & Artes"
+        }
+      ]
+    }
+  }

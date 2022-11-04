@@ -1,11 +1,30 @@
 <template>
-    <Navbar />
+    <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <span class="block text-zinc-500">Ready to dive in?</span>
+            <span class="block text-red-700">Start your free trial today.</span>
+        </h2>
+        <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+            <div class="inline-flex rounded-md shadow">
+                <a href="#"
+                    class="inline-flex items-center justify-center rounded-md border border-transparent bg-red-700 px-5 py-3 text-base font-medium text-white hover:bg-red-300 hover:text-black">Get
+                    started</a>
+            </div>
+            <div class="ml-3 inline-flex rounded-md shadow">
+                <a href="#"
+                    class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-red-700 hover:bg-indigo-50">Learn
+                    more</a>
+            </div>
+        </div>
+    </div>
+    <div id="renderResults"></div>
 </template>
 
 
 
-<script setup lang="ts">
-import Navbar from "../components/Navbar.vue";
+<script>
+import services from '../../axios/services'
+services.getIEs()
 
 </script>
 

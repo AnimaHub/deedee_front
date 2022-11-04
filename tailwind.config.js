@@ -1,3 +1,5 @@
+// tailwind.config.js
+const formKitTailwind = require('@formkit/themes/tailwindcss');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,7 +9,10 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+   formKitTailwind
+  ],
 // daisyUI config (optional)
 daisyui: {
   styled: true,
@@ -22,3 +27,5 @@ daisyui: {
   lightTheme: "acid",
 },
 }
+
+

@@ -44,3 +44,9 @@ yarn build
 ```sh
 yarn lint
 ```
+
+### FormKit/theme with [FormKit](https://formkit.com)
+
+```sh
+yarn add @formkit/theme
+```
