@@ -87,7 +87,7 @@
 
 
 // preenche os selects
-import services from '../../axios/services'
+import services from '../services/services'
 const IEs = services.getIEs()
 const Campus = services.getCampus();
 const idP = services.getProfessors()
